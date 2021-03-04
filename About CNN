@@ -1,11 +1,11 @@
 CONVOLUTIONAL NEURAL NETWORK
 
-CNN is a Deep Learning algorithm 
+
+CNN is a Deep Learning algorithm designed for processing structured arrays of data such as images.It takes in an input image, assign weights and biases to various objects/aspects in the image and be able to differentiate from one another.
+It operates directky on a raw image and do not need any preprocessing.
 
 
 2D convolution layer (Convo2D): This layer creates a convolution kernel that is convolved with the layer input to produce a tensor of outputs.
-
-kernel_initializer: Initializer for the kernel weight matrix.
 
 Flatten layer in Keras: A flatten operation on a tensor reshapes the tensor to have the shape that is equal to the number of elements  contained in the tensor non-including the batch dimwnsion.
 
@@ -14,3 +14,6 @@ Max Pooling : It is done to help overfitting by providing an abstracted form of 
 Pooling layer: A pooling layer is a building block of a CNN. Its function is to progressively reduce the spatial size of the representation to reduce amount of parameters and computation in the network.It works on each feature independently.
 
 Dense layer: Each neuron in a layer receives input from all the neurons present in the previous layer. thus they're densely connected. That is all the neurons in a layer are connected to those in the next layer.  
+
+Important terms:
+kernel_initializer: Initializer for the kernel weight matrix.
